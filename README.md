@@ -1,2 +1,2 @@
-# trade_machine
-It's a machine that makes trades.
+# Trade Machine
+It's a machine that trades.
