@@ -5,6 +5,9 @@ __pycache__/
 
 .DS_Store
 
+# local db 
+*.db
+
 # C extensions
 *.so
 
