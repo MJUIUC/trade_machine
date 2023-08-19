@@ -11,3 +11,10 @@ After this, you'll need to install uvicorn. Uvicorn is a lightning-fast ASGI ser
 Once poetry is installed, you can install all of the dependencies by running `poetry install` in the root directory of the project.
 
 Finally, you can run the server by running `poetry run uvicorn trade_machine.main:app --reload` in the root directory of the project.
+
+
+```bash
+$ curl --location --request GET 'https://data.alpaca.markets/v1beta1/news' \
+--header 'Apca-Api-Key-Id: <KEY>' \
+--header 'Apca-Api-Secret-Key: <SECRET>'
+```
