@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from trade_machine.alpaca_api_client.market_data_controller import AlpacaMarketsHistoricalDataClient
+from trade_machine.alpaca_api_client.market_data_client import AlpacaMarketsHistoricalDataClient
 
 http_service = FastAPI()
 historical_data_client = AlpacaMarketsHistoricalDataClient()
